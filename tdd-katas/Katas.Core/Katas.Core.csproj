@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Minesweeper\Field.cs" />
     <Compile Include="Minesweeper\FieldParser.cs" />
+    <Compile Include="Minesweeper\FieldPrinter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
