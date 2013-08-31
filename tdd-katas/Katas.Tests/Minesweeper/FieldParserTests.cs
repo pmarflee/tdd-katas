@@ -53,6 +53,11 @@ namespace Katas.Tests.Minesweeper
                 {
                     new InputBuilder().Add(Single3By5Input).Build(),
                     new ReadOnlyCollection<Field>(new[] {Single3By5Input.ToField()})
+                },
+                new object[]
+                {
+                    new InputBuilder().Add(Single3By5Input).Add(Single4By4Input).Build(),
+                    new ReadOnlyCollection<Field>(new[] {Single3By5Input.ToField(), Single4By4Input.ToField()})
                 }
             };
 
